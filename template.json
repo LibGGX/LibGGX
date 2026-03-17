@@ -1,0 +1,48 @@
+// Fuck JSON im gonna comment anyway
+{
+    // Constructor declares information and compatibility
+    "constructor": {
+        // GGX-JSON types: patch, patchset, manifest
+        "type": "patch",
+        // Name not required but useful for frontends
+        "name": "<patch_name>",
+        // Master version control; If not enabled here, Mandeville will reject it.
+        "versions": {
+            "1888": false,
+            "6717": false,
+            "7258": false,
+            "9199": false,
+            "13604": false,
+            "15574": false,
+            "17489": false,
+            "17559": true
+        }
+    },
+    // Example Patch
+    // "xebin" points to a XeBuild patch binary / Bilateral Stage 1 patch
+    "xebin": {
+        "<dash_ver>": "<file_path>"
+    },
+    // "gsp" points to a GSP v1 patch (Signature matching)
+    "gsp": {
+        "1": {
+            "search": "",
+            "replace": ""
+        },
+        "2": {
+            "search": "",
+            "replace": ""
+        }
+    },
+    // "gsp2" points to a GSP v2 patch (PPC Decompiler and instruction matching)
+    "gsp2": {
+        "1": {
+            "search": "",
+            "replace": ""
+        },
+        "2": {
+            "search": "",
+            "replace": ""
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "constructor": {
+        "type": "patchset",
+        "name": "xdx-loader",
+        "versions": {
+            "1888": false,
+            "6717": false,
+            "7258": false,
+            "9199": false,
+            "13604": false,
+            "15574": false,
+            "17489": true,
+            "17559": false
+        }
+    },
+    "patches": {
+        "nohdmiwait": "gsp1"
+    }
+}

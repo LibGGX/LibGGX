@@ -1,0 +1,39 @@
+{
+    "constructor": {
+        "type": "patch",
+        "name": "nohdmiwait",
+        "versions": {
+            "1888": false,
+            "6717": false,
+            "7258": false,
+            "9199": false,
+            "13604": false,
+            "15574": false,
+            "17489": false,
+            "17559": true
+        }
+    },
+    "xebin": {
+        "17559": "common/nohdmiwait.bin"
+    },
+    "gsp": {
+        "1": {
+            "search": "",
+            "replace": ""
+        },
+        "2": {
+            "search": "",
+            "replace": ""
+        }
+    },
+    "gsp2": {
+        "1": {
+            "search": "",
+            "replace": ""
+        },
+        "2": {
+            "search": "",
+            "replace": ""
+        }
+    }
+}

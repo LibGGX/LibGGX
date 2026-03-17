@@ -1,0 +1,36 @@
+{
+    "constructor": {
+        "type": "manifest",
+        "name": "17559",
+        "versions": {
+            "1888": false,
+            "6717": false,
+            "7258": false,
+            "9199": false,
+            "13604": false,
+            "15574": false,
+            "17489": false,
+            "17559": true
+        }
+    },
+    "base": {
+        "ce": "1888",
+        "cf": "17559",
+        "cg": "17559",
+        "flashfs": {}
+    },
+    "xenon": {},
+    "zephyr": {},
+    "falcon": {},
+    "jasper": {},
+    "trinity": {
+        "retail": {
+            "cb": "",
+            "cd": ""
+        },
+        "glitch1": {
+            "cb": "",
+            "cd": ""
+        }
+    }
+}
